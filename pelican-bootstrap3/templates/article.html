@@ -7,6 +7,7 @@
     {% else %}
         <meta name="author" content="{{ AUTHOR }}" />
     {% endif %}
+    <meta name="baidu-site-verification" content="{{BAIDU_VERIFICATION_CONTENT}}"/>
     {% if article.tags %}
         <meta name="keywords" content="{{ article.tags|join(',')|striptags }}" />
     {% endif %}
